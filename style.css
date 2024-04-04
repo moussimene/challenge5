@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: montserrat ;
+    src: url("fonts/montserrat.ttf");
+    }
+
+body {
+
+
+  position: relative; 
+  width: 80%;
+  margin: auto;
+  font-family:montserrat; 
+  background-color:beige; 
+      
+    
+     
+  }
+  header{
+    background-color:rgb(59, 51, 51);
+    height:150px;
+   
+  
+  }
+  #logo{
+    position: absolute; 
+    margin-top: 0;
+    height: 150px;
+    width: 150px;   
+      
+   }
+  nav{
+     position: relative;    
+    text-align: right;
+   
+  }
+  nav ul{
+    padding-top: 50px;;
+  }
+  
+    nav  li  {
+      display: inline;
+      padding: 20px;
+      padding-top: 50px;
+  
+   }
+      
+   li a {
+     
+      font-size:xx-large;  
+      text-decoration: none;
+      color: aliceblue;
+       
+      }
+      li a:hover {
+        background-color:#9a0f0f;
+        padding:auto;
+  
+      }
+
+
+      img {
+        float: left;
+        margin-right:20px;
+      }
+
+      section article img{
+        float: left;
+        margin-right:20px;
+      }
+
+      section{
+        text-align:justify;
+      }
+   
+      #pizza{
+        column-count: 2;
+        column-width:350px ;
+        background: moccasin;
+        padding: 20px;
+        width: auto; 
+        line-height: 1.7em;
+        
+        flex-direction: column;
+          column-count: 2;
+          
+      }
+ 
+form{
+  margin: auto;
+  position: relative;
+  background-color: rgb(93, 153, 96);
+  border: 0.30em   currentColor;
+  border-radius: 0.30em; 
+  display: flex;
+  flex-direction:column; 
+  align-items: center;
+  padding: 20px;
+ width: 300px;
+ line-height: 30px;
+   
+}
+ 
+form ul{
+  list-style-type:none;
+  justify-content: start;
+    align-items: center;
+    margin-inline: 50px;
+    text-align-last: center;
+
+}
+   form ul li:last-child{
+  margin-top: 20px;
+ 
+ 
+}
+     
+
+
+#added_btn{
+        background-color: #a84b2f;
+        color: aliceblue;
+
+      }
+
+      footer {
+        text-align: center;
+        background-color: rgb(34, 18, 18);
+        color:  aliceblue;
+       text-decoration-style: none;
+         
+      }
+     
